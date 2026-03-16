@@ -90,7 +90,7 @@ export default function HomeScreen() {
   };
 
   return (
-    <LinearGradient colors={["#0f172a", "#020617"]} style={styles.container}>
+    <LinearGradient colors={["#090f1d", "#020617"]} style={styles.container}>
       <StatusBar barStyle="light-content" />
       <SafeAreaView style={styles.safeArea}>
         <KeyboardAvoidingView
@@ -161,6 +161,8 @@ export default function HomeScreen() {
                 placeholderTextColor="#64748b"
                 style={styles.input}
                 multiline
+                onSubmitEditing={handleSend}
+                blurOnSubmit={false}
               />
               <Animated.View style={{ transform: [{ scale: sendScale }] }}>
                 <TouchableOpacity
@@ -282,7 +284,7 @@ const styles = StyleSheet.create({
     width: 44,
     height: 44,
     borderRadius: 999,
-    backgroundColor: "#f97316",
+    backgroundColor: "#059669",
     alignItems: "center",
     justifyContent: "center",
   },
