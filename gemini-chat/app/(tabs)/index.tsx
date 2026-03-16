@@ -203,9 +203,10 @@ const styles = StyleSheet.create({
   },
   logoText: {
     fontSize: 32,
-    fontWeight: "700",
+    fontWeight: "300",
     color: "#e5e7eb",
-    letterSpacing: 1.5,
+    letterSpacing: 3,
+    fontFamily: "Georgia",
   },
   subtitle: {
     fontSize: 14,
@@ -248,8 +249,9 @@ const styles = StyleSheet.create({
     borderColor: "rgba(148,163,184,0.35)",
   },
   bubbleText: {
-    fontSize: 14,
-    lineHeight: 20,
+    fontSize: 15,
+    lineHeight: 22,
+    fontFamily: "Georgia",
   },
   userText: {
     color: "#e5e7eb",
