@@ -1,1 +1,1 @@
-# Gemini_API
+Gemini Chat App
